@@ -1,72 +1,71 @@
-Sign Language Detection
+##SIGN LAGUAGE DETECTION
 
-This project is a real-time Sign Language Detection system that uses a webcam to recognize hand gestures and display the corresponding word on the screen.
+A real-time system that detects hand gestures through your webcam and converts them into text — built using Python, TensorFlow, OpenCV, and MediaPipe.
 
-It can help bridge the communication gap between people who use sign language and those who do not understand it.
+#🔍 Overview
 
-📸 Example Output
+This project captures your hand gestures using the webcam and predicts the corresponding sign language word on the screen.
 
-When a user shows the sign for Hello, the system detects it and displays the word "Hello" on the screen.
+It is designed to help bridge communication between sign language users and non-signers.
+
+#📸 Example Output
+
+When you show the gesture for Hello, the system detects it and displays the word:
 
 
 (Sample detection result)
 
-⚙️ Features
+#⚙️ Features
 
-Detects hand gestures in real-time using a webcam.
+✅ Real-time gesture detection using webcam
+✅ Converts sign gestures into text on screen
+✅ Works with common signs like Hello
+✅ Lightweight and runs on most laptops/desktops
 
-Converts gestures into text displayed on the screen.
-
-Works with commonly used sign gestures.
-
-Lightweight and runs on most laptops/desktops with a webcam.
-
-🛠️ Technologies Used
+#🛠️ Tech Stack
 
 Python 3.9
 
-TensorFlow / Keras – Deep Learning model
+TensorFlow / Keras – Deep Learning Model
 
-OpenCV – Real-time video capture
+OpenCV – Webcam video capture
 
 MediaPipe / cvzone – Hand landmark detection
 
 NumPy – Data processing
 
-🚀 How to Run
+#🚀 How to Run
 
 Clone or download the project.
 
-Install the required dependencies:
+Install required dependencies:
 
 pip install tensorflow==2.9.1 opencv-python mediapipe cvzone numpy keras pyttsx3
 
 
-Run the prediction script:
+Run the detection script:
 
 python prediction_wo_gui.py
 
 
-The webcam will open. Show a hand gesture, and the system will display the detected word on the screen.
+The webcam will open. Show a sign gesture and the system will display the detected word.
 
-📂 Project Files
+#📂 Project Files
 
-cnn8grps_rad1_model.h5 → Trained deep learning model.
+cnn8grps_rad1_model.h5 → Trained CNN model
 
-final_pred.py → Script for running detection.
+final_pred.py → Real-time detection script
 
-prediction_wo_gui.py → Script to test detection without GUI.
+prediction_wo_gui.py → Run detection without GUI
 
-dataset collection scripts → Used to capture training data.
+dataset collection scripts → Used for capturing training data
 
-🔮 Future Improvements
+#🔮 Future Improvements
 
-Support for more sign gestures.
+✨ Add more sign gestures
+✨ Improve accuracy with larger datasets
+✨ Add text-to-speech for detected words
 
-Add speech output (convert text to voice).
+#🙌 Acknowledgement
 
-Improve accuracy with larger datasets.
-
-🙌 Acknowledgement
-
-This project is made for learning and research purposes to support sign language communication.
+Built for learning and research to support Sign Language communication.
