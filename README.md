@@ -1,28 +1,33 @@
-##SIGN LAGUAGE DETECTION
+# Sign Language Detection System
+<h1 style="font-weight:900; color:black;">Sign Language Detection System</h1>
 
 A real-time system that detects hand gestures through your webcam and converts them into text — built using Python, TensorFlow, OpenCV, and MediaPipe.
 
-#🔍 Overview
+# 🔍 Overview
+<h1 style="font-weight:900; color:black;">🔍 Overview</h1>
 
 This project captures your hand gestures using the webcam and predicts the corresponding sign language word on the screen.
 
 It is designed to help bridge communication between sign language users and non-signers.
 
-#📸 Example Output
+# 📸 Example Output
+<h1 style="font-weight:900; color:black;">📸 Example Output</h1>
 
 When you show the gesture for Hello, the system detects it and displays the word:
 
 
 (Sample detection result)
 
-#⚙️ Features
+# ⚙️ Features
+<h1 style="font-weight:900; color:black;">⚙️ Features</h1>
 
 ✅ Real-time gesture detection using webcam
 ✅ Converts sign gestures into text on screen
 ✅ Works with common signs like Hello
 ✅ Lightweight and runs on most laptops/desktops
 
-#🛠️ Tech Stack
+# 🛠️ Tech Stack
+<h1 style="font-weight:900; color:black;">🛠️ Tech Stack</h1>
 
 Python 3.9
 
@@ -34,7 +39,8 @@ MediaPipe / cvzone – Hand landmark detection
 
 NumPy – Data processing
 
-#🚀 How to Run
+# 🚀 How to Run
+<h1 style="font-weight:900; color:black;">🚀 How to Run</h1>
 
 Clone or download the project.
 
@@ -50,7 +56,8 @@ python prediction_wo_gui.py
 
 The webcam will open. Show a sign gesture and the system will display the detected word.
 
-#📂 Project Files
+# 📂 Project Files
+<h1 style="font-weight:900; color:black;">📂 Project Files</h1>
 
 cnn8grps_rad1_model.h5 → Trained CNN model
 
@@ -60,12 +67,14 @@ prediction_wo_gui.py → Run detection without GUI
 
 dataset collection scripts → Used for capturing training data
 
-#🔮 Future Improvements
+# Future Improvements
+<h1 style="font-weight:900; color:black;">🔮 Future Improvements</h1>
 
 ✨ Add more sign gestures
 ✨ Improve accuracy with larger datasets
 ✨ Add text-to-speech for detected words
 
-#🙌 Acknowledgement
+# Acknowledgement
+<h1 style="font-weight:900; color:black;">🙌 Acknowledgement</h1>
 
 Built for learning and research to support Sign Language communication.
