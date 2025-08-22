@@ -1,4 +1,4 @@
-# SIGN-LANGUAGE-DETECTION 
+Sign Language Detection
 
 This project is a real-time Sign Language Detection system that uses a webcam to recognize hand gestures and display the corresponding word on the screen.
 
@@ -8,6 +8,8 @@ It can help bridge the communication gap between people who use sign language an
 
 When a user shows the sign for Hello, the system detects it and displays the word "Hello" on the screen.
 
+
+(Sample detection result)
 
 ⚙️ Features
 
