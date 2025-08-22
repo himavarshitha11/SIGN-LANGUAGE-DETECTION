@@ -16,7 +16,7 @@ It is designed to help bridge communication between sign language users and non-
 
 When you show the gesture for **Hello**, the system detects it and displays the word:
 
-![Sample Output](screenshot.png)
+![Sample Output](https://github.com/himavarshitha11/SIGN-LANGUAGE-DETECTION/blob/a9d6a23a8fb1f51ab57df32dfbc78b28343c255d/Screenshot%20(63).png)
 
 ---
 
