@@ -1,4 +1,4 @@
-<h1 style="font-weight:900; color:black;">✋ Sign Language Detection System</h1>
+<h1 style="font-weight:900; color:black;"> Sign Language Detection System</h1>
 
 A real-time system that detects hand gestures through your webcam and converts them into text — built using Python, TensorFlow, OpenCV, and MediaPipe.
 
@@ -22,10 +22,10 @@ When you show the gesture for **Hello**, the system detects it and displays the 
 
 <h1 style="font-weight:900; color:black;">⚙️ Features</h1>
 
-✅ Real-time gesture detection using webcam  
-✅ Converts sign gestures into text on screen  
-✅ Works with common signs like **Hello**  
-✅ Lightweight and runs on most laptops/desktops  
+ Real-time gesture detection using webcam  
+ Converts sign gestures into text on screen  
+ Works with common signs like **Hello**  
+ Lightweight and runs on most laptops/desktops  
 
 ---
 
