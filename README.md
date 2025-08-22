@@ -69,3 +69,7 @@ dataset collection scripts → Used for capturing training data
 
 <h1 style="font-weight:900; color:black;">🙌 Acknowledgement</h1>
 This project was developed as part of a learning exercise to explore computer vision, deep learning, and human-computer interaction.
+
+##  Developed by
+
+*Hima Varshitha Muthuluri*
